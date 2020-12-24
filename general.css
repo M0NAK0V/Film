@@ -114,18 +114,14 @@ input, button, textarea {
     line-height: inherit;
 }
 .button {
-    margin-top: 30px;
+    margin-top: 2%;
 	padding: 11px 30px;
 	font-size: 14px;
 	border: 0;
-    text-transform: uppercase;
-    white-space: nowrap;
+	cursor: pointer;
     text-overflow: ellipsis;
     text-align: center;
 	font-family: 'DIN PRO Bold', sans-serif;
-    cursor: pointer;
-    vertical-align: middle;
-    user-select: none;
     transition: 250ms all ease-in-out;
     border-radius: 10em;
     box-shadow: inset 0px -4px 2px rgba(0, 0, 0, 0.25);
@@ -134,10 +130,11 @@ input, button, textarea {
 }
 .frm{
     position: relative;
-    width: 50%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
     min-height: 1px;
-    padding-right: 100px;
-    padding-left: 15px;
+    
 }
 .form-wrap {
     position: relative;
@@ -145,7 +142,7 @@ input, button, textarea {
 }
 .form-input {
     display: block;
-    width: 100%;
+    width: 1200px;
     min-height: 55px;
     padding: 14px 19px;
     font-size: 15px;
@@ -220,6 +217,21 @@ input, button, textarea {
 	color: white;
 	box-shadow:  0 0 10px rgba(0,0,0,0.5);
    }
+   .form-input {
+    display: block;
+    width: 900px;
+    min-height: 55px;
+    padding: 14px 19px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -.02em;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    border: 1px solid #c4c4c4;
+	font-family: 'Bahnschrift', sans-serif;
+}
 }
 
 @media all and (max-width: 1040px) {
@@ -272,13 +284,6 @@ input, button, textarea {
 	margin-top: 2%;
 	box-shadow:  -4px 5px 3px 2px rgba(101, 158, 186, 1);
 }
-.frm{
-    position: relative;
-    width: 90%;
-    min-height: 1px;
-    padding-right: 100px;
-    padding-left: 15px;
-}
 .history {
     width: 850px;
 	height: 462px;
@@ -291,6 +296,21 @@ input, button, textarea {
 	color: white;
 	box-shadow:  0 0 10px rgba(0,0,0,0.5);
    }
+     .form-input {
+    display: block;
+    width: 850px;
+    min-height: 55px;
+    padding: 14px 19px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -.02em;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    border: 1px solid #c4c4c4;
+	font-family: 'Bahnschrift', sans-serif;
+}
 }
 @media all and (max-width: 945px) {
 .center {
@@ -342,13 +362,8 @@ input, button, textarea {
 	margin-top: 2%;
 	box-shadow:  -4px 5px 3px 2px rgba(101, 158, 186, 1);
 }
-.frm{
-    position: relative;
-    width: 80%;
-    min-height: 1px;
-    padding-right: 100px;
-    padding-left: 15px;
-}
+
+
 .history {
     width: 650px;
 	height: 462px;
@@ -364,6 +379,21 @@ input, button, textarea {
    cg{
 	  font-size: 20pt;
   }
+  .form-input {
+    display: block;
+    width: 650px;
+    min-height: 55px;
+    padding: 14px 19px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -.02em;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    border: 1px solid #c4c4c4;
+	font-family: 'Bahnschrift', sans-serif;
+}
 }
 @media all and (max-width: 700px) {
 .center {
@@ -415,13 +445,22 @@ input, button, textarea {
 	margin-top: 2%;
 	box-shadow:  -4px 5px 3px 2px rgba(101, 158, 186, 1);
 }
-.frm{
-    position: relative;
-    width: 70%;
-    min-height: 1px;
-    padding-right: 100px;
-    padding-left: 15px;
+.form-input {
+    display: block;
+    width: 400px;
+    min-height: 55px;
+    padding: 14px 19px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -.02em;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    border: 1px solid #c4c4c4;
+	font-family: 'Bahnschrift', sans-serif;
 }
+
 .history {
     width: 400px;
 	height: 462px;
