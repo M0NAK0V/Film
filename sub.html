@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<link rel="stylesheet" href="general.css" />
+<script>
+   function isEmail() {
+    var str = document.getElementById("email").value;
+    var re = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+    if (re.test(str))return true;
+      else return false;
+    if(isEmpty(str)) return false;
+   }
+   function isEmpty(str){
+    return (str == null) || (str.length == 0);
+   }
+   function isName(){
+   var str = document.getElementById("name").value;
+	if(isEmpty(str)) return false;
+		else return true;
+	}
+	function test(){
+	if ((isEmail()) && (isName()) == true){
+	alert("Вы подписались на рассылку публикации.")}}
+  </script>
+</head>
+<body link="black" vlink="#cecece" alink="#ff0000">
+<style>
+   body {
+    background: url(back2.png);
+    background-size: 100%;
+   }
+ </style>
+ <img src = "sub.png" width="10%">
+ <div class="frm">
+					<h2>Для тех, кому интересно</h2>
+					<form>
+						<div class="form-wrap">
+							<input class="form-input" id="name" type="text" placeholder="Имя" required="">
+						</div>
+                
+						<div class="form-wrap">
+							<input class="form-input" id="email" type="email" placeholder="Электронная почта" required=""></span>    
+						</div>
+						<div class="form-wrap">
+							<textarea class="form-input" id="message" placeholder="Почему вы решили подписаться? Что мы можем улучшить в сайте?"></textarea>
+						</div>
+						<button class="button" id="submit" name="submit" onClick="test()"type="submit">Отправить</button>
+					</form>
+				</div>
+ </body>
+</html>

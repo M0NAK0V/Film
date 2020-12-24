@@ -1,0 +1,78 @@
+
+body {margin:0;}
+
+nav {
+margin: 0 auto;
+}
+.navbar-logo {
+display: block;
+text-decoration: none;
+outline: none;
+font-family: 'Bahnschrift', sans-serif;
+font-weight:600;
+float: right;
+}
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+/*box-shadow: 3px 0 7px rgba(0,0,0,.3);*/
+}
+
+.topmenu > li {
+display: inline-block;
+margin-right: 20px;
+position: relative;
+}
+
+
+a {
+display: block;
+padding: 20px 15px;
+text-decoration: none;
+outline: none;
+font-family: 'Bahnschrift', sans-serif;
+font-weight:500;
+}
+
+
+a:hover {  
+text-decoration: underline;
+}
+
+
+/*.fa {
+padding-right: 10px;
+}
+.submenu {
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+
+z-index: 10;
+}*/
+
+
+.two ul {
+background-color: #D4E7EE;
+}
+.two ul a {
+color: #040419;
+}
+
+
+
+/*.two .submenu {
+visibility: hidden;
+background: #ADC0CE;
+}
+
+.two ul li:hover .submenu {
+visibility: visible;
+}
+
+.submenu li a {
+border-bottom: 1px solid rgba(255,255,255,.3);
+color: white;
+}*/

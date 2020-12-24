@@ -1,0 +1,431 @@
+line {
+   text-decoration: underline;
+   }
+ .center {
+    width: 1200px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	font-family: 'Bahnschrift', sans-serif;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+@font-face {
+ font-family: "DIN PRO Bold";
+src: url("15770.otf") format("opentype")}
+.center1 {
+    width: 1200px; 
+    padding: 10px; 
+    margin: auto; 
+    background: white; 
+	color: black;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+   h2{
+	  font-family: 'DIN PRO Bold', sans-serif;
+   }
+   v{
+	  font-family: 'DIN PRO Bold', sans-serif;
+   }
+  c{
+	 font-family: 'Bahnschrift', sans-serif;
+  }
+  P { 
+    text-indent: 1.5em; 
+    text-align: justify; 
+   }
+  d{
+	 font-size: 24pt;
+  }
+  vg{
+	 font-size: 50pt;
+	 font-family: 'DIN PRO Bold', sans-serif;
+  }
+  cg{
+	  font-size: 35pt;
+  }
+.rightpic {
+    float: right; 
+    margin: 0 0 5px 5px;
+   }  
+.center3 {
+    width: 1200px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-family: 'Bahnschrift', sans-serif;
+	position: relative;
+	margin-top: 3%;
+   }
+.flex-container { 	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+	margin: auto; 
+}
+
+.flex-item {
+	width: 350px;
+    background: white;
+	padding: 5px;	
+    float: left;
+    margin-left: 2%;
+	font-size: 15pt;
+	font-family: 'Bahnschrift', sans-serif;
+	color: black;
+	visibility: visible;
+	margin-top: 2%;
+	box-shadow:  -4px 5px 3px 2px rgba(101, 158, 186, 1);
+
+}
+.history {
+    width: 1200px;
+	height: 462px;
+    padding: 10px; 
+    margin: auto;
+	background: #666666;
+    background-image: url(https://avatanplus.com/files/resources/original/5bf8cb64d69bc16743da820f.png), url(https://fishki.net/picsw/082013/22/post/venec/tn.jpg);
+	background-position: left;
+	background-repeat:no-repeat,round;
+	color: white;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+@media all and (max-width: 1245px) {
+.center {
+    width: 900px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	font-family: 'Bahnschrift', sans-serif;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+   .center1 {
+    width: 900px; 
+    padding: 10px; 
+    margin: auto; 
+    background: white; 
+	color: black;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+   .center3 {
+    width: 900px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	font-family: 'Bahnschrift', sans-serif;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	margin-top: 3%;
+   }
+   .flex-container { 	
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 15pt;
+	justify-content: center;
+	list-style: none;
+	margin: auto; 
+	}
+
+	.flex-item {
+	width: 350px;
+    background: white;
+	padding: 5px;	
+    float: left;
+    margin-left: 2%;
+	font-family: 'Bahnschrift', sans-serif;
+	color: black;
+	visibility: visible;
+	margin-top: 2%;
+	box-shadow:  -4px 5px 3px 2px rgba(101, 158, 186, 1);
+	}
+	.history {
+    width: 900px;
+	height: 462px;
+    padding: 10px; 
+    margin: auto;
+	background: #666666;
+    background-image: url(https://avatanplus.com/files/resources/original/5bf8cb64d69bc16743da820f.png), url(https://fishki.net/picsw/082013/22/post/venec/tn.jpg);
+	background-position: left;
+	background-repeat:no-repeat,round;
+	color: white;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+}
+
+@media all and (max-width: 1040px) {
+.center {
+    width: 850px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	font-family: 'Bahnschrift', sans-serif;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+   .center1 {
+    width: 850px; 
+    padding: 10px; 
+    margin: auto; 
+    background: white; 
+	color: black;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+   .center3 {
+    width: 850px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	font-family: 'Bahnschrift', sans-serif;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	margin-top: 3%;
+   }
+   .flex-container { 	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+	margin: auto; 
+	}
+
+	.flex-item {
+	width: 650px;
+    background: white;
+	padding: 5px;	
+    float: left;
+	font-size: 22pt;
+    margin-left: 2%;
+	font-family: 'Bahnschrift', sans-serif;
+	color: black;
+	visibility: visible;
+	margin-top: 2%;
+	box-shadow:  -4px 5px 3px 2px rgba(101, 158, 186, 1);
+}
+.history {
+    width: 850px;
+	height: 462px;
+    padding: 10px; 
+    margin: auto;
+	background: #666666;
+    background-image: url(https://avatanplus.com/files/resources/original/5bf8cb64d69bc16743da820f.png), url(https://fishki.net/picsw/082013/22/post/venec/tn.jpg);
+	background-position: left;
+	background-repeat:no-repeat,round;
+	color: white;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+}
+@media all and (max-width: 945px) {
+.center {
+    width: 650px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	font-family: 'Bahnschrift', sans-serif;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+   .center1 {
+    width: 650px; 
+    padding: 10px; 
+    margin: auto; 
+    background: white; 
+	color: black;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+   .center3 {
+    width: 650px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	font-family: 'Bahnschrift', sans-serif;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	margin-top: 3%;
+   }
+   .flex-container { 	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+	margin: auto; 
+	}
+
+	.flex-item {
+	width: 600px;
+    background: white;
+	padding: 5px;	
+    float: left;
+	font-size: 22pt;
+    margin-left: 2%;
+	font-family: 'Bahnschrift', sans-serif;
+	color: black;
+	visibility: visible;
+	margin-top: 2%;
+	box-shadow:  -4px 5px 3px 2px rgba(101, 158, 186, 1);
+}
+.history {
+    width: 650px;
+	height: 462px;
+    padding: 10px; 
+    margin: auto;
+	background: #666666;
+    background-image: url(https://avatanplus.com/files/resources/original/5bf8cb64d69bc16743da820f.png), url(https://fishki.net/picsw/082013/22/post/venec/tn.jpg);
+	background-position: left;
+	background-repeat:no-repeat,round;
+	color: white;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+   cg{
+	  font-size: 20pt;
+  }
+}
+@media all and (max-width: 700px) {
+.center {
+    width: 400px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	font-family: 'Bahnschrift', sans-serif;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+   .center1 {
+    width: 400px; 
+    padding: 10px; 
+    margin: auto; 
+    background: white; 
+	color: black;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+   .center3 {
+    width: 400px; 
+    padding: 10px; 
+    margin: auto; 
+    background: #006699; 
+	font-family: 'Bahnschrift', sans-serif;
+	color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	margin-top: 3%;
+   }
+   .flex-container { 	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+	margin: auto; 
+	}
+
+	.flex-item {
+	width: 350px;
+    background: white;
+	padding: 5px;	
+    float: left;
+	font-size: 13pt;
+    margin-left: 2%;
+	font-family: 'Bahnschrift', sans-serif;
+	color: black;
+	visibility: visible;
+	margin-top: 2%;
+	box-shadow:  -4px 5px 3px 2px rgba(101, 158, 186, 1);
+}
+.history {
+    width: 400px;
+	height: 462px;
+    padding: 10px; 
+    margin: auto;
+	background: #666666;
+    background-image: url(https://avatanplus.com/files/resources/original/5bf8cb64d69bc16743da820f.png), url(https://fishki.net/picsw/082013/22/post/venec/tn.jpg);
+	background-position: left;
+	background-repeat:no-repeat,round;
+	color: white;
+	font-size: 15pt;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   }
+   vg{
+	 font-size: 30pt;
+	 font-family: 'DIN PRO Bold', sans-serif;
+  }
+  cg{
+	  font-size: 15pt;
+  }
+}
+footer {
+  width: auto;
+  background-color: white;
+  padding: .75rem;
+  color: black;
+  font-family: 'DIN PRO Bold', sans-serif;
+  font-size: .75rem;
+  position: relative;
+  margin-top: 1%;
+  box-shadow: -2px 2px 2px 2px rgba(101, 158, 186, 1);
+}
+textarea.form-input {
+    height: 186px;
+    min-height: 55px;
+    max-height: 316px;
+    resize: vertical;
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+input, button, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.button {
+    margin-top: 30px;
+	padding: 11px 30px;
+	font-size: 14px;
+	border: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+	font-family: 'DIN PRO Bold', sans-serif;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+    border-radius: 10em;
+    box-shadow: inset 0px -4px 2px rgba(0, 0, 0, 0.25);
+	color: #ffffff;
+    background-color: #006699;
+}
+.frm{
+    position: relative;
+    width: 50%;
+    min-height: 1px;
+    padding-right: 100px;
+    padding-left: 15px;
+}
+.form-wrap {
+    position: relative;
+    margin-top: 20px;
+}
+.form-input {
+    display: block;
+    width: 100%;
+    min-height: 55px;
+    padding: 14px 19px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -.02em;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    border: 1px solid #c4c4c4;
+	font-family: 'Bahnschrift', sans-serif;
+}
