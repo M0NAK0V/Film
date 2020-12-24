@@ -1,6 +1,9 @@
 line {
    text-decoration: underline;
    }
+@font-face {
+ font-family: "Bahnschrift";
+src: url("bahnschrift.ttf") format("truetype")}
  .center {
     width: 1200px; 
     padding: 10px; 
@@ -13,6 +16,7 @@ line {
 @font-face {
  font-family: "DIN PRO Bold";
 src: url("15770.otf") format("opentype")}
+
 .center1 {
     width: 1200px; 
     padding: 10px; 
